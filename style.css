@@ -1,0 +1,77 @@
+:root {
+    --backgroundGradient: linear-gradient(21deg, rgba(60,7,238,1) 6%, rgba(124,9,189,1) 42%, rgba(193,11,144,1) 88%);
+
+}
+
+/* coluna 1 */
+.col1 {
+    background: var(--backgroundGradient);
+    height: 100vh;
+}
+
+#profileCircle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid white;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-image: url('img/pic2.jpg');
+    background-size: cover;
+}
+
+.col1 h4 {
+    color: white; 
+}
+
+.col1 p {
+    color: white;
+    text-align: justify;
+
+}
+
+.col1 #icons svg {
+    border-radius: 100px;
+    margin: 2%;
+}
+
+.col1 #icons svg:hover {
+    cursor: pointer;
+}
+
+.col1 #aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    color: white;    
+}
+
+.col1 #messageMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.col1 #messageMe button {
+    color: rgba(124,9,189,1);
+    font-weight: bold;
+    box-shadow: none;
+   
+}
+
+.col1 #messageMe button:hover {
+    color: rgba(193,11,144,1);
+    font-size: 18px;
+    
+}
+
+
+
+
+
+/* coluna2 */
+.col2 {
+    background-color: rgb(245, 253, 245);
+}
+
