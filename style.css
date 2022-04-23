@@ -74,17 +74,19 @@
 }
 
 .col1 #messageMe button {    
-    box-shadow: none;  
+    box-shadow: none; 
+    color: rgba(124,9,189,1); 
 }
 
-.col1 #messageMe button a {
+.col1 #messageMe a {
     font-weight: bold;
     color: rgba(124,9,189,1);
     text-decoration: none;
-    transition: 0.7s;
 }
 
+.col1 #messageMe button:hover,
 .col1 #messageMe button a:hover { 
+    transition: 0.7s;
     color: rgba(193,11,144,1);
     font-size: 18px; 
 }
