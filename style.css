@@ -73,14 +73,18 @@
     justify-content: center;  
 }
 
-.col1 #messageMe button {
-    color: rgba(124,9,189,1);
-    font-weight: bold;
+.col1 #messageMe button {    
     box-shadow: none;  
 }
 
-.col1 #messageMe button:hover {
-    transition: 0.6s;
+.col1 #messageMe button a {
+    font-weight: bold;
+    color: rgba(124,9,189,1);
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.col1 #messageMe button a:hover { 
     color: rgba(193,11,144,1);
     font-size: 18px; 
 }
@@ -107,6 +111,7 @@
     color: white;
     box-shadow: none;
     font-weight: bold;
+    margin: 5px;
 }
 /* .col2 .l1p1 button:hover {
     width: 160px;
