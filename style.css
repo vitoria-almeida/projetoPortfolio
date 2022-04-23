@@ -77,7 +77,7 @@
     box-shadow: none;  
 }
 
-.col1 #messageMe a {
+.col1 #messageMe button a {
     font-weight: bold;
     color: rgba(124,9,189,1);
     text-decoration: none;
